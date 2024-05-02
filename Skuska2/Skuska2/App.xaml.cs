@@ -14,7 +14,8 @@ namespace Skuska2
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
+            MainPage = new StartPage();
         }
 
         protected override void OnStart()
